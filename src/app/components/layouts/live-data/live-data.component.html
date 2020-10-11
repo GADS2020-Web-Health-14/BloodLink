@@ -1,0 +1,34 @@
+<div class="live-data-sidebar">
+    <div class="inner-content">
+        <ul *ngIf="global != ''; else loadingData">
+            <li>
+                <strong>Total Blood Donated :</strong> {{numberWithCommas(global['TotalDeaths'])}}
+            </li>
+            <li>
+                <strong>New Donation :</strong> {{numberWithCommas(global['NewDeaths'])}}
+            </li>
+            <li>
+                <strong>Number of Request :</strong> {{numberWithCommas(global['TotalConfirmed'])}}
+            </li>
+            
+            <li>
+                <strong>Confirm/Tested :</strong> {{numberWithCommas(global['TotalRecovered'])}}
+            </li>
+            <li>
+                <strong>Issued  :</strong> {{numberWithCommas(global['NewRecovered'])}}
+            </li>
+        </ul>
+    
+        <button (click)="getData()" class="default-btn">Refresh</button>
+
+        <p class="date"><i>API Updated: {{dateTime}}</i></p>
+    
+        <ng-template #loadingData>
+            Loading...
+        </ng-template>
+    </div>
+
+    <div class="live-data-btn">
+        Live Data
+    </div>
+</div>
