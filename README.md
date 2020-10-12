@@ -18,7 +18,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/GADS2020-Web-Health-14/BloodLink">
-    <img src="src/assets/img/logo.png" alt="Logo" width="140" height="80">
+    <img src="src/assets/img/logo.png" alt="Logo" width="100%" height="80">
   </a>
 
   <h3 align="center">BloodLink</h3>
