@@ -13,6 +13,7 @@ import { ContactComponent } from './components/pages/contact/contact.component';
 import { ErrorComponent } from './components/pages/error/error.component';
 import { ComingSoonComponent } from './components/pages/coming-soon/coming-soon.component';
 import { LiveTrackerComponent } from './components/pages/live-tracker/live-tracker.component';
+import { BloodbankDashboardComponent } from './components/pages/bloodbank-dashboard/bloodbank-dashboard.component';
 
 const routes: Routes = [
     {path: '', component: HomeOneComponent},
@@ -28,6 +29,7 @@ const routes: Routes = [
     {path: 'live-tracker', component: LiveTrackerComponent},
     {path: 'coming-soon', component: ComingSoonComponent},
     {path: 'contact', component: ContactComponent},
+    {path: 'user-dashboard', component: BloodbankDashboardComponent},
 ];
 
 @NgModule({

@@ -7956,3 +7956,36 @@ Go Top CSS
         };
     }
 }
+
+/*================================================
+FUN FACTS AREA FOR BLOODBANK
+=================================================*/
+
+.bb-funfacts-area {
+    position: relative;
+    z-index: 1;
+    background: {
+        color: #f6f6f6;
+        position: center center;
+        size: cover;
+        repeat: no-repeat;
+    };
+    .section-title {
+        h2 {
+            color: #3c3464;
+        }
+        h4 {
+            color: #3c3464;
+        }
+        margin-bottom: 30px;
+    }
+    &::before {
+        width: 100%;
+        height: 100%;
+        content: '';
+        position: absolute;
+        z-index: -1;
+        left: 0;
+        top: 0;
+    }
+}
