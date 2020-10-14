@@ -7989,3 +7989,17 @@ FUN FACTS AREA FOR BLOODBANK
         top: 0;
     }
 }
+
+.bb-btn-primary {
+    background-color: #195ca4;
+    border: #195ca4;
+    transition: all .2s ease;
+    color: #fff;
+    box-shadow: 2px 2px 3px #b7b7b7;
+
+    &:hover {
+        background-color:  #114e8f;
+        border: #114e8f;
+        color: #fff;
+    }
+}
