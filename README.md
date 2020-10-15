@@ -67,10 +67,10 @@ like to build up innovative solutions with the skills they have learnt.
 
 ### Built With
 
+* [Typescript](https://typescriptlang.org)
 * [AngularJS](https://angular.io)
 * [Bootstrap](https://getbootstrap.com)
 * [Google Cloud](https://cloud.google.com)
-* [Typescript](https://typescriptlang.org)
 
 <!-- GETTING STARTED -->
 ## Getting Started
