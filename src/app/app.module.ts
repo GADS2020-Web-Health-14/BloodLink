@@ -22,6 +22,7 @@ import { ErrorComponent } from './components/pages/error/error.component';
 import { ComingSoonComponent } from './components/pages/coming-soon/coming-soon.component';
 import { LiveTrackerComponent } from './components/pages/live-tracker/live-tracker.component';
 import { LiveDataComponent } from './components/layouts/live-data/live-data.component';
+import { BloodbankDashboardComponent } from './components/pages/bloodbank-dashboard/bloodbank-dashboard.component';
 
 @NgModule({
   declarations: [
@@ -43,7 +44,8 @@ import { LiveDataComponent } from './components/layouts/live-data/live-data.comp
     ErrorComponent,
     ComingSoonComponent,
     LiveTrackerComponent,
-    LiveDataComponent
+    LiveDataComponent,
+    BloodbankDashboardComponent
   ],
   imports: [
     BrowserModule,
