@@ -23,6 +23,8 @@ import { ComingSoonComponent } from './components/pages/coming-soon/coming-soon.
 import { LiveTrackerComponent } from './components/pages/live-tracker/live-tracker.component';
 import { LiveDataComponent } from './components/layouts/live-data/live-data.component';
 import { BloodbankDashboardComponent } from './components/pages/bloodbank-dashboard/bloodbank-dashboard.component';
+import { AdminComponent } from './components/pages/admin/admin.component';
+import { AdminMenuComponent } from './components/layouts/admin-menu/admin-menu.component';
 
 @NgModule({
   declarations: [
@@ -45,7 +47,9 @@ import { BloodbankDashboardComponent } from './components/pages/bloodbank-dashbo
     ComingSoonComponent,
     LiveTrackerComponent,
     LiveDataComponent,
-    BloodbankDashboardComponent
+    BloodbankDashboardComponent,
+    AdminComponent,
+    AdminMenuComponent
   ],
   imports: [
     BrowserModule,
