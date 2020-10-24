@@ -25,6 +25,9 @@ import { LiveDataComponent } from './components/layouts/live-data/live-data.comp
 import { BloodbankDashboardComponent } from './components/pages/bloodbank-dashboard/bloodbank-dashboard.component';
 import { AdminComponent } from './components/pages/admin/admin.component';
 import { AdminMenuComponent } from './components/layouts/admin-menu/admin-menu.component';
+import { TopBarComponent } from './components/layouts/top-bar/top-bar.component';
+import { AdminTopBarComponent } from './components/layouts/admin-top-bar/admin-top-bar.component';
+import { NavbarComponent } from './components/layouts/navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -49,7 +52,10 @@ import { AdminMenuComponent } from './components/layouts/admin-menu/admin-menu.c
     LiveDataComponent,
     BloodbankDashboardComponent,
     AdminComponent,
-    AdminMenuComponent
+    AdminMenuComponent,
+    TopBarComponent,
+    AdminTopBarComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
