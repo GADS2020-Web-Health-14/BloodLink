@@ -46,4 +46,4 @@ testem.log
 Thumbs.db
 
 #API key
-maps-api.js
+maps-api.ts
